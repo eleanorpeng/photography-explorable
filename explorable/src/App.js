@@ -131,21 +131,22 @@ function App() {
           <p>
             Exposure triangle consists of ISO, shutter speed, and aperture. The
             combination of these three camera controls determines the light and
-            effects of an image. ISO controls the sensitivity of light, shutter
+            effects on an image. ISO controls the sensitivity of light, shutter
             speed controls the blurriness of motion, and aperture controls the
             depth of field of an image. They work together to ensure an image is
-            properly exposed. Adjusting one variable would affect the others, so
-            it’s critical to understand how to change the variables to maintain
-            proper exposure.
+            properly exposed. Since adjusting one variable require some
+            adjustments to the other two variables, it’s critical to understand
+            how to change the variables to maintain proper exposure. Here’s an
+            overview of how ISO, shutter speed, and aperture affect the image:
           </p>
           <img style={{ alignSelf: "center", width: 500 }} src="triangle.png" />
         </div>
         <div>
           <h2>ISO</h2>
           <p>
-            ISO controls how sensitive the camera is to light. You can think of
-            it as a lightbulb. Lower ISO has dimmer light, while higher ISO has
-            brighter light.
+            ISO controls how sensitive the camera is to light. Just like a
+            lightbulb, lower ISO indicates dimmer light, whereas higher ISO
+            indicates brighter light.
           </p>
           <p>Let's look at the photos below (hover over images):</p>
           <div className="cards">
@@ -221,9 +222,10 @@ function App() {
           <p>
             The image with higher ISO contains more noise (aka has more grains),
             because more photons enter the photo in that case. In other words,
-            higher ISO increases the noise of the photo. Whenever we adjust ISO
-            in digital camera, we’re increasing or decreasing the camera’s
-            sensitivity by manipulating the voltage to the sensor.
+            higher ISO increases the noise of the photo and lower ISO decreases
+            the noise. Whenever we adjust ISO in digital camera, we’re
+            increasing or decreasing the camera’s sensitivity by manipulating
+            the voltage to the sensor.
           </p>
           <p>There are 3 types of ISO:</p>
           <ol>
@@ -607,8 +609,8 @@ function App() {
             field of an image.
           </p>
           <p>
-            If you’d like to learn more about these, I’d recommend checking
-            these resources:
+            If you’d like to learn more about exposure triangle or photography,
+            I’d recommend checking these resources:
           </p>
           <p>
             <b>Content</b>
