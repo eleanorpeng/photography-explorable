@@ -1,0 +1,33 @@
+.multiple-choice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.multiple-choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.multiple-choice-button {
+  text-align: center;
+  background-color: #e9edc9;
+  padding: 0px 40px;
+  border-radius: 20px;
+}
+
+.multiple-choice-button p {
+  font-size: 15px;
+}
+.multiple-choice-button:hover {
+  background-color: #ccd5ae;
+  cursor: pointer;
+}
+
+.multiple-choice-image {
+  width: 200;
+  height: 200;
+  object-fit: cover;
+  border-radius: 16px;
+}

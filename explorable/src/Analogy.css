@@ -1,0 +1,21 @@
+.analogy-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e9edc9;
+  border-radius: 16px;
+  padding: 20px;
+  min-width: 120px;
+  min-height: 120px;
+}
+
+.analogy-button:hover {
+  background-color: #ccd5ae;
+  cursor: pointer;
+}
+
+.analogy-button p {
+  font-size: 15px;
+}

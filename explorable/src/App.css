@@ -1,0 +1,174 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  padding: 20px 60px;
+  flex-direction: column;
+  background-color: #fffff6;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: space-around;
+  align-self: center;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+p {
+  font-family: "Inter";
+  font-size: 18px;
+}
+
+li {
+  font-size: 18px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aperture-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.aperture-buttons button {
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e9edc9;
+}
+
+.aperture-buttons button:hover {
+  background-color: #ccd5ae;
+  cursor: pointer;
+}
+
+.aperture-buttons button:after {
+  background-color: #ccd5ae;
+  cursor: pointer;
+}
+
+.lens {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lens-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.multiple-choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.multiple-choice-button {
+  text-align: center;
+  background-color: #e9edc9;
+  padding: 0px 40px;
+  border-radius: 20px;
+}
+
+.multiple-choice-button p {
+  font-size: 15px;
+}
+.multiple-choice-button:hover {
+  background-color: #ccd5ae;
+  cursor: pointer;
+}
+
+.exposure-triangle {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: rgb(101, 101, 101);
+}
+
+.analogy-button img {
+  width: 50px;
+  height: 50px;
+}
+
+.analogy-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.analogy-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+a:visited {
+  color: rgb(101, 101, 101);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
